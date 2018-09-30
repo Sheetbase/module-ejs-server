@@ -6,6 +6,11 @@
 	"author": "Sheetbase",
 	"homepage": "https://sheetbase.net",
 	"license": "Apache-2.0",
+	"keywords": [
+		"google-apps-script",
+		"view-engine",
+		"ejs"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/sheetbase/module-ejs-server.git"
