@@ -10,8 +10,8 @@
  *
  */
  
-declare const ejsExports: {(): any};
-const ejs = ejsExports();
+declare const ejsModuleExports: {(): any};
+const ejs = ejsModuleExports();
 const Ejs = ejs;
 
 for (const key of Object.keys(ejs)) {
