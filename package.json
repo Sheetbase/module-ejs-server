@@ -1,11 +1,15 @@
 {
 	"name": "@sheetbase/ejs-server",
 	"type": "module",
-	"version": "2.6.0",
+	"version": "2.6.0-1",
 	"description": "Ejs for Google apps script.",
 	"author": "Sheetbase",
 	"homepage": "https://sheetbase.net",
 	"license": "Apache-2.0",
+	"scripts": {
+		"build": "sheetbase-app-scripts build",
+		"push": "sheetbase-app-scripts push"
+	},
 	"keywords": [
 		"google-apps-script",
 		"view-engine",
@@ -20,6 +24,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
+		"@sheetbase/app-scripts": "0.0.2",
 		"@types/google-apps-script": "0.0.28"
 	}
 }
