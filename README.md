@@ -23,7 +23,7 @@ Using ejs in Google Apps Script. See: https://github.com/mde/ejs
 
 [Apache-2.0][license_url]
 
-[license_badge]: https://img.shields.io/github/license/mashape/apistatus.svg
+[license_badge]: https://img.shields.io/hexpm/l/plug.svg
 [license_url]: https://github.com/sheetbase/module-ejs-server/blob/master/LICENSE
 
 [clasp_badge]: https://img.shields.io/badge/built%20with-clasp-4285f4.svg
