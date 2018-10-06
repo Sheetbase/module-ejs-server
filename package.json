@@ -1,13 +1,13 @@
 {
 	"name": "@sheetbase/ejs-server",
 	"type": "module",
-	"version": "2.6.0-1",
+	"version": "2.6.0-2",
 	"description": "Ejs for Google apps script.",
 	"author": "Sheetbase",
 	"homepage": "https://sheetbase.net",
 	"license": "Apache-2.0",
 	"scripts": {
-		"build": "sheetbase-app-scripts build",
+		"build": "sheetbase-app-scripts build --vendor --ugly",
 		"push": "sheetbase-app-scripts push"
 	},
 	"keywords": [
@@ -24,7 +24,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@sheetbase/app-scripts": "0.0.2",
+		"@sheetbase/app-scripts": "0.0.3",
 		"@types/google-apps-script": "0.0.28"
 	}
 }
