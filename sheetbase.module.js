@@ -6,8 +6,8 @@ var module = module || { exports: exports };
  * Export name: Ejs
  * Description: Ejs for Google apps script.
  * Version: 2.6.0-3
- * Author: Sheetbase
- * Homepage: https://sheetbase.net
+ * Author: Matthew Eernisse <mde@fleegix.org> (http://fleegix.org)
+ * Homepage: https://github.com/mde/ejs
  * License: Apache-2.0
  * Repo: https://github.com/sheetbase/module-ejs-server.git
  */
