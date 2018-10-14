@@ -2,11 +2,11 @@
 
 Ejs for Google apps script.
 
-<!-- <content> -->
+<!-- <block:header> -->
 
 [![License][license_badge]][license_url] [![clasp][clasp_badge]][clasp_url] [![Support me on Patreon][patreon_badge]][patreon_url] [![PayPal][paypal_donate_badge]][paypal_donate_url] [![Ask me anything][ask_me_badge]][ask_me_url]
 
-<!-- </content> -->
+<!-- </block:header> -->
 
 ## Install
 
@@ -35,7 +35,7 @@ Homepage: https://github.com/mde/ejs
 
 **@sheetbase/ejs-server** is released under the [Apache-2.0](https://github.com/sheetbase/module-ejs-server/blob/master/LICENSE) license.
 
-<!-- <footer> -->
+<!-- <block:footer> -->
 
 [license_badge]: https://img.shields.io/hexpm/l/plug.svg
 [license_url]: https://github.com/sheetbase/module-ejs-server/blob/master/LICENSE
@@ -48,4 +48,4 @@ Homepage: https://github.com/mde/ejs
 [ask_me_badge]: https://img.shields.io/badge/ask/me-anything-1abc9c.svg
 [ask_me_url]: https://m.me/sheetbase
 
-<!-- </footer> -->
+<!-- </block:footer> -->

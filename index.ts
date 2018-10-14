@@ -1,0 +1,1 @@
+export { EjsModule, Ejs } from './src';

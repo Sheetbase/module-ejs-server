@@ -1,5 +1,6 @@
-declare const EjsModule: {()};
-var Ejs = Ejs || EjsModule();
+import { EjsModule } from '../index';
+
+const Ejs = EjsModule();
 
 export function example1(): void {
 	const source: string = '<h1>Hello <%= name %>!</h1>';

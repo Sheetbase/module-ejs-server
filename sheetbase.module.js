@@ -5,7 +5,7 @@ var module = module || { exports: exports };
  * Name: @sheetbase/ejs-server
  * Export name: Ejs
  * Description: Ejs for Google apps script.
- * Version: 2.6.0-3
+ * Version: 2.6.0-4
  * Author: Matthew Eernisse <mde@fleegix.org> (http://fleegix.org)
  * Homepage: https://github.com/mde/ejs
  * License: Apache-2.0
@@ -25,6 +25,7 @@ var module = module || { exports: exports };
 }
 exports.EjsModule = EjsModule;
 /*</sheetbase>*/
-// add to the global namespace
-var proccess = proccess || this;
-proccess['Ejs'] = EjsModule();
+// add 'Ejs' to the global namespace
+(function (process) {
+    process['Ejs'] = EjsModule();
+})(this);
