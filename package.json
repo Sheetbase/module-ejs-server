@@ -18,10 +18,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sheetbase/module-ejs-server.git"
+		"url": "https://github.com/sheetbase/ejs-server.git"
 	},
 	"bugs": {
-		"url": "https://github.com/sheetbase/module-ejs-server/issues"
+		"url": "https://github.com/sheetbase/ejs-server/issues"
 	},
 	"dependencies": {},
 	"devDependencies": {
